@@ -1,3 +1,5 @@
+User Manual for my Image Processing Final Project
+===============================
 1. Install Dependencies
 pip install tensorflow keras-tuner scikit-learn matplotlib seaborn
 
@@ -27,6 +29,7 @@ Make sure to match input dimensions to what the pre-trained model expects (e.g.,
 Potentially change the data preprocessing from [0,1] normalization to the appropriate preprocessing function (e.g., mobilenet_v2.preprocess_input).
 
 ===============================
+
 This pipeline satisfies the requirements of:
 
 Dataset Preparation & Preprocessing (including normalization, data splits, and augmentation).
@@ -36,6 +39,7 @@ Hyperparameter Tuning (via Keras Tuner’s random search).
 Model Evaluation (accuracy, confusion matrix, classification report, and training/validation curves).
 
 ================================
+
 Note:
 
 This code uses TensorFlow (>=2.7) and Keras Tuner (>=1.1).
